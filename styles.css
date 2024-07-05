@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 2px solid red; */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 160%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.ntr-clr-1 {
+  color: rgb(240, 240, 240);
+}
+.ntr-clr-2 {
+  color: rgb(221, 221, 255);
+}
+
+/* container */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.nav-background-clr {
+  background-color: rgb(35, 35, 35);
+}
+
+.nav-logo-btn {
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+
+.nav-logo-btn:hover {
+  cursor: pointer;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-link {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.25px;
+  text-decoration: none;
+
+  color: aliceblue;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+
+.background-clr {
+  background-color: rgb(41, 113, 255);
+}
+
+.header-container {
+  padding: 180px 0;
+}
+
+.heading-1 {
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 120%;
+  color: rgb(240, 240, 240);
+  margin-bottom: 16px;
+}
+
+.heading-2 {
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: -0.25px;
+  line-height: 120%;
+  margin-bottom: 40px;
+}
+
+.header-subheading {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(221, 221, 255);
+  margin-bottom: 24px;
+}
+
+.header-cta {
+  display: flex;
+  justify-content: center;
+}
+
+.heading-cta-btn {
+  display: inline-block;
+  margin: 0 8px;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 4px;
+
+  font-size: 16px;
+  font-family: inherit;
+
+  letter-spacing: -0.25px;
+  line-height: 160%;
+}
+
+.heading-cta-btn {
+  cursor: pointer;
+}
+
+/* About section */
+.about-section {
+  padding: 180px 0;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.body-text {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.25px;
+  margin-bottom: 16px;
+}
+
+/* Tools section */
+.tools-section {
+  padding: 180px 0;
+}
+
+.section-subheading {
+  text-align: center;
+  padding: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.25px;
+}
+
+.tools-section-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tools-section-container > * {
+  flex-basis: 100%;
+  flex: 1;
+}
